@@ -5,8 +5,8 @@ const organism_traits_dark = [false, false, false, false];
 // initialize context
 kaboom({ font: "monospace" });
 
-loadSound("win","sounds/winner.mp3");
-loadSound("wrong","sounds/wrong.mp3");
+loadSound("win","https://raw.githubusercontent.com/Ninjago77/genetictech/main/sounds/winner.mp3");
+loadSound("wrong","https://raw.githubusercontent.com/Ninjago77/genetictech/main/sounds/wrong.mp3");
 
 add([
     rect(width(),height()),
@@ -28,11 +28,11 @@ function posify(x: number, y: number) {
     return pos(x+((width()-SCREEN_WIDTH)/2),y+((height()-SCREEN_HEIGHT)/2))
 }
 
-loadSprite("warm_ocean", "sprites/backgrounds/warm ocean.png",);
-loadSprite("deep_ocean", "sprites/backgrounds/deep ocean.png");
-loadSprite("dna_black", "sprites/dna/dna black.png");
-loadSprite("arrow_black", "sprites/arrow_black.png");
-loadSprite("arrow_white", "sprites/arrow_white.png");
+loadSprite("warm_ocean", "https://raw.githubusercontent.com/Ninjago77/genetictech/main/sprites/backgrounds/warm ocean.png",);
+loadSprite("deep_ocean", "https://raw.githubusercontent.com/Ninjago77/genetictech/main/sprites/backgrounds/deep ocean.png");
+loadSprite("dna_black", "https://raw.githubusercontent.com/Ninjago77/genetictech/main/sprites/dna/dna black.png");
+loadSprite("arrow_black", "https://raw.githubusercontent.com/Ninjago77/genetictech/main/sprites/arrow_black.png");
+loadSprite("arrow_white", "https://raw.githubusercontent.com/Ninjago77/genetictech/main/sprites/arrow_white.png");
 
 
 const deep_ocean = add([
@@ -116,7 +116,7 @@ add([
     }),
 ])
 
-loadSprite("edit_dna", "sprites/edit dna.png");
+loadSprite("edit_dna", "https://raw.githubusercontent.com/Ninjago77/genetictech/main/sprites/edit dna.png");
 add([
     sprite("edit_dna",),
     posify(400, 120),
@@ -329,9 +329,9 @@ add([
     }),
 ]);
 
-loadSprite("small_fish", "sprites/size trait/small fish.png");
-loadSprite("yes_mark", "sprites/size trait/mark YES.png");
-loadSprite("no_mark", "sprites/size trait/mark NO.png");
+loadSprite("small_fish", "https://raw.githubusercontent.com/Ninjago77/genetictech/main/sprites/size trait/small fish.png");
+loadSprite("yes_mark", "https://raw.githubusercontent.com/Ninjago77/genetictech/main/sprites/size trait/mark YES.png");
+loadSprite("no_mark", "https://raw.githubusercontent.com/Ninjago77/genetictech/main/sprites/size trait/mark NO.png");
 
 add([
     sprite("small_fish"),
@@ -395,10 +395,10 @@ function switch_small_fish_presence() {
     is_small_fish_present = !is_small_fish_present;
 }
 
-loadSprite("shark", "sprites/predators/shark.png");
-loadSprite("whale", "sprites/predators/whale.png");
-loadSprite("eyesight", "sprites/senses/eyesight.png");
-loadSprite("hearing", "sprites/senses/hearing.png");
+loadSprite("shark", "https://raw.githubusercontent.com/Ninjago77/genetictech/main/sprites/predators/shark.png");
+loadSprite("whale", "https://raw.githubusercontent.com/Ninjago77/genetictech/main/sprites/predators/whale.png");
+loadSprite("eyesight", "https://raw.githubusercontent.com/Ninjago77/genetictech/main/sprites/senses/eyesight.png");
+loadSprite("hearing", "https://raw.githubusercontent.com/Ninjago77/genetictech/main/sprites/senses/hearing.png");
 
 const predators = [
     [
@@ -469,8 +469,8 @@ function switch_predator() {
     is_shark = !is_shark;
 }
 
-loadSprite("calm_water", "sprites/waters/calm water.png");
-loadSprite("fast_water", "sprites/waters/fast water.png");
+loadSprite("calm_water", "https://raw.githubusercontent.com/Ninjago77/genetictech/main/sprites/waters/calm water.png");
+loadSprite("fast_water", "https://raw.githubusercontent.com/Ninjago77/genetictech/main/sprites/waters/fast water.png");
 const water_speeds = [
     [
         add([
@@ -525,14 +525,14 @@ function switch_water_speeds() {
 }
 
 // load assets
-loadSprite("dna_red", "sprites/dna/dna red.png",);
-loadSprite("dna_magenta", "sprites/dna/dna magenta.png");
-loadSprite("dna_green", "sprites/dna/dna green.png");
-loadSprite("dna_lime", "sprites/dna/dna lime.png");
-loadSprite("dna_turquoise", "sprites/dna/dna turquoise.png");
-loadSprite("dna_indigo", "sprites/dna/dna indigo.png");
-loadSprite("dna_orange", "sprites/dna/dna orange.png");
-loadSprite("dna_brown", "sprites/dna/dna brown.png");
+loadSprite("dna_red", "https://raw.githubusercontent.com/Ninjago77/genetictech/main/sprites/dna/dna red.png",);
+loadSprite("dna_magenta", "https://raw.githubusercontent.com/Ninjago77/genetictech/main/sprites/dna/dna magenta.png");
+loadSprite("dna_green", "https://raw.githubusercontent.com/Ninjago77/genetictech/main/sprites/dna/dna green.png");
+loadSprite("dna_lime", "https://raw.githubusercontent.com/Ninjago77/genetictech/main/sprites/dna/dna lime.png");
+loadSprite("dna_turquoise", "https://raw.githubusercontent.com/Ninjago77/genetictech/main/sprites/dna/dna turquoise.png");
+loadSprite("dna_indigo", "https://raw.githubusercontent.com/Ninjago77/genetictech/main/sprites/dna/dna indigo.png");
+loadSprite("dna_orange", "https://raw.githubusercontent.com/Ninjago77/genetictech/main/sprites/dna/dna orange.png");
+loadSprite("dna_brown", "https://raw.githubusercontent.com/Ninjago77/genetictech/main/sprites/dna/dna brown.png");
 
 const gene_sprites_pic = [
     ["dna_red", "dna_magenta"],
